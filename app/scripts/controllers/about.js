@@ -8,13 +8,13 @@
  * Controller of the angular1App
  */
 angular.module('angular1App')
-  .controller('AboutCtrl', function (constants) {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
-    console.log(constants.HOST);
-    console.log(constants.modules.MODULE1);
-    console.log(constants.endpoints.ENDPOINT1);
-  });
+        .controller('AboutCtrl', function (constants) {
+            this.awesomeThings = [
+                'HTML5 Boilerplate',
+                'AngularJS',
+                'Karma'
+            ];
+            console.log(constants.HOST);
+            console.log(constants.MODULES.MODULE1);
+            console.log(constants.ENDPOINTS.ENDPOINT1);
+        });

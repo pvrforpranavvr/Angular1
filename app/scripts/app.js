@@ -38,12 +38,12 @@ function constants()
 {
     return {
         HOST: 'http://localhost:8080',
-        modules: {
+        MODULES: {
             MODULE1: '/api/module1/rest',
             MODULE2: '/api/module1/rest',
             MODULE3: '/api/module1/rest'
         },
-        endpoints: {
+        ENDPOINTS: {
             ENDPOINT1: '/endpoint1',
             ENDPOINT2: '/endpoint1',
             ENDPOINT3: '/endpoint1'
