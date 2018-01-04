@@ -14,4 +14,5 @@ Running `grunt test` will run the unit tests with karma.
 ## Build bower dependencies & npm packages
 
 `bower install`
+
 `npm install`
